@@ -103,7 +103,7 @@ const WelcomeForm: React.FC<WelcomeFormProps> = ({
             <button
               type="button"
               onClick={() => setAssistantModel('ft:gpt-3.5-turbo-1106:growthify::8qwhKSVZ')}
-              className={`p-1 border border-gray-400 rounded-md ${assistantModel === 'ft:gpt-3.5-turbo-1106:growthify::8qwhKSVZ' ? 'bg-blue-500 text-white' : ''}`}
+              className={`p-1 border border-gray-400 rounded-md ${assistantModel === 'ft:gpt-3.5-turbo-1106:growthify:8qwhKSVZ' ? 'bg-blue-500 text-white' : ''}`}
             >
               Custom Model
             </button>
